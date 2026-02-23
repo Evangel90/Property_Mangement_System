@@ -2,17 +2,18 @@
 pragma solidity ^0.8.13;
 
 import {Script} from "forge-std/Script.sol";
-import {Counter} from "../src/Counter.sol";
+// import {PropertyMS} from "../src/PropertyMS.sol";
+import {PropertyCoin} from "../src/PropertyCoin.sol";
 
-contract CounterScript is Script {
-    Counter public counter;
+contract DeployScript is Script {
+    PropertyCoin public coin;
 
     function setUp() public {}
 
     function run() public {
         vm.startBroadcast();
 
-        counter = new Counter();
+        coin = new PropertyCoin(msg.sender);
 
         vm.stopBroadcast();
     }
