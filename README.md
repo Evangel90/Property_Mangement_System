@@ -1,2 +1,2 @@
-PropertyCoin CA:0xc6dedb50397A47ee9FA4c79A5FbD65f91e397534
-PropertyMS CA: 0x1EE825c812D7df7fE7272b43e9515416d978F0ff
+PropertyCoin CA: [0xc6dedb50397A47ee9FA4c79A5FbD65f91e397534](https://sepolia.etherscan.io/token/0xc6dedb50397A47ee9FA4c79A5FbD65f91e397534)
+PropertyMS CA: [0x1EE825c812D7df7fE7272b43e9515416d978F0ff](https://sepolia.etherscan.io/address/0x1EE825c812D7df7fE7272b43e9515416d978F0ff)
